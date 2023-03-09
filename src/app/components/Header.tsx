@@ -5,7 +5,7 @@ import { BiAlignRight } from "react-icons/bi";
 
 export default function Header() {
     return (
-        <div className='flex justify-between items-center bg-purple-400 md:px-[60px] px-[20px] py-2 w-full'>
+        <div className='flex justify-between items-center md:px-[60px] px-[20px] py-2 w-full absolute'>
             <div>
                 <Image src='/Logo.webp' alt='Panaverse' width={120} height={120} />
             </div>
